@@ -68,7 +68,7 @@ RSpec.describe League do
       expect(@league.teams).to eq([@team1, @team2, @team3, @team4])
     end
 
-    xit 'can find all players of a given position' do
+    it 'can find all players of a given position' do
       @league.add_team(@team1)
       @league.add_team(@team2)
       @league.add_team(@team3)
@@ -79,7 +79,7 @@ RSpec.describe League do
       expect(@league.find_position('P')).to eq([@player8, @player10, @player15])
     end
 
-    xit 'can list player names in alphabetical order' do
+    it 'can list player names in alphabetical order' do
       @league.add_team(@team1)
       @league.add_team(@team2)
       @league.add_team(@team3)
@@ -88,7 +88,7 @@ RSpec.describe League do
       expect(@league.players).to eq(["Catherine Coder", "Charlie Hustle", "Corey Clubber", "Federico Alcaraz", "Harry Fields", "Jessie Bats", "Kyrié", "Larry Johnson", "Mikey Mits", "Nelly Knuckles", "Sally Slider", "Sandra Slammer", "Simona Swiatek", "Timea Types", "Travis Tome", "Xavier Devs"])
     end
 
-    xit 'can list the numbers of all players in numerical order' do
+    it 'can list the numbers of all players in numerical order' do
       @league.add_team(@team1)
       @league.add_team(@team2)
       @league.add_team(@team3)
