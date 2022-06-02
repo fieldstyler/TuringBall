@@ -1,4 +1,4 @@
-#TuringBall Nested Iteration Challenge
+# TuringBall Nested Iteration Challenge
 
 The `spec/league_spec.rb` file is the only spec file with skipped tests. Start with this file, and the first skipped test. Unskip this test, and add code to the `lib/league.rb` file in order to make the test pass. Unskip the following two tests as you come to them in order to make each of those tests pass as well.
 
